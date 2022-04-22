@@ -162,6 +162,7 @@ class ComplexNum():
         return ComplexNum(self.re * other.re - self.im * other.im, self.im * other.re + self.re * other.im)
 a = ComplexNum(2, 3)
 b = ComplexNum(5, 7)
+c = ComplexNum(6, 8)
 print(a)
 print(b)
 print(a+b)
